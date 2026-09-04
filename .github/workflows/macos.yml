@@ -69,7 +69,7 @@ jobs:
           cpm-modules: ${{ runner.temp }}/shadow_build_dir/cpm_modules
 
       - name: Install Qt
-        uses: jurplep/install-qt-action@v4
+        uses: jurplepl/install-qt-action@v4
         with:
           version: ${{ env.QT_VERSION }}
           host: mac
